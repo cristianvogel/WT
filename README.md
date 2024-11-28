@@ -40,11 +40,11 @@ At this point, its a good idea to run a [Reaper](https://www.reaper.fm) batch sc
 Ideally, the desired sort order should be set by the first two digits of the filename. This is because the slices will be sorted by filename in the next step.   eg. `01-MySlice.wav`, `02-MySlice.wav`, `03-MySlice.wav` etc.
 
 ## Optional Pre-Processing
-Achieved some cool results using [Sononym](https://www.sononym.net/) to sort the exported slices by brightness, then use the Sononym batch rename feature with a brightness advanced pattern. 
+Achieved some cool results using [Sononym](https://www.sononym.net/) to sort the exported slices by brightness, then used the Sononym `batch rename` feature with a brightness advanced pattern. 
 
 `%basename%-%brightness:range(0:1:0:127):floor()%`
 
-Of couse, your preffered pre-processing software can be used here isntead.
+Of couse, your preffered pre-processing software can be used here instead.
 
 ## 3. Scripted Processing
 
