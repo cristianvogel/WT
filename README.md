@@ -16,7 +16,7 @@ It can be done in realtime inside BitWig with a minimum of two single cycles. Or
 Slices can be ordered explicitly by adding numerical sequence at the start of each filename which is interpreted by the `sortByNameANdResampleTo2048.py` script. This opens possibilities to temporal rearrangment and editing of segments hardcoded in the WT file or a hardcoded sort by brightness, loudness etc. 
 
 ### 5. Find a way to play and listen before the final export.
-Crucial to check the practicality the table concept before final bake.
+Crucial to check the practicality of the table concept before final bake.
 
 ## 1. Source Requirements
 
