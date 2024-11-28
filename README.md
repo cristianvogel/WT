@@ -1,5 +1,5 @@
 # WAVETABLE PROCESSING WORKFLOW
-## For BitWig WT Format
+## For BitWig/Surge WT Format
 ##  Documentation 
 _27th November 2024_
 
