@@ -16,13 +16,13 @@ It can be done in realtime inside BitWig with a minimum of two single cycles. Or
 Slices can be ordered explicitly by adding numerical sequence at the start of each filename which is interpreted by the `sortByNameANdResampleTo2048.py` script. This opens possibilities to temporal rearrangment and editing of segments hardcoded in the WT file or a hardcoded sort by brightness, loudness etc. 
 
 ### 5. Find a way to play and listen before the final export.
-Crucial to check the practicality the table concept before final bake.
+Crucial to check the practicality of the table concept before final bake.
 
 ## 1. Source Requirements
 
 `WAV mono 44.1 kHz 16-bit`
 
-For simple single cycle interpolated WTs, one really neat way where you can listen as you go and a few more more keyframes if needed, is to load WAV frames into the [Sonic Academy Node](https://www.sonicacademy.com/products/node) plug in and export the WT with suggested fixed size of 2048 samples. This wavetable output should then be sliced into individual cycles. I found [ReNoise](https://www.renoise.com) and the [Simple Slicer](https://www.renoise.com/tools/simpleslicer) tool best for this. Jump straight to [Scripted Processing](#3.-Scripted-Processing) when you have the slices ready.
+For simple single cycle interpolated WTs, one really neat way where you can listen as you go and add more keyframes if needed, is to load WAV frames into the [Sonic Academy Node](https://www.sonicacademy.com/products/node) plug in and export the WT with suggested fixed size of 2048 samples. This wavetable output should then be sliced into individual cycles. I found [ReNoise](https://www.renoise.com) and the [Simple Slicer](https://www.renoise.com/tools/simpleslicer) tool best for this. Jump straight to [Scripted Processing](#3.-Scripted-Processing) when you have the slices ready.
 
 ## 2. Pre-Processing
 First step is to slice into zero crossing segments. Best tool to do this I find is again, `ReNoise`. Use the [Zero Crossing Slicer](https://www.renoise.com/tools/zerocrossings) tool from the sampler context menu, under `Slices`.
