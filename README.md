@@ -22,7 +22,7 @@ Crucial to check the practicality the table concept before final bake.
 
 `WAV mono 44.1 kHz 16-bit`
 
-For simple single cycle interpolated WTs, load cycles into the `Sonic Academy Node 2` plug in and export the WT with suggested fixed size of 2048 samples. This wavetable output should then be sliced into individual cycles. I found [ReNoise](https://www.renoise.com) and the [Simple Slicer](https://www.renoise.com/tools/simpleslicer) tool best for this. Jump straight to [Scripted Processing](#3.-Scripted-Processing) when you have the slices ready.
+For simple single cycle interpolated WTs, one really neat way where you can listen as you go and a few more more keyframes if needed, is to load WAV frames into the [Sonic Academy Node](https://www.sonicacademy.com/products/node) plug in and export the WT with suggested fixed size of 2048 samples. This wavetable output should then be sliced into individual cycles. I found [ReNoise](https://www.renoise.com) and the [Simple Slicer](https://www.renoise.com/tools/simpleslicer) tool best for this. Jump straight to [Scripted Processing](#3.-Scripted-Processing) when you have the slices ready.
 
 ## 2. Pre-Processing
 First step is to slice into zero crossing segments. Best tool to do this I find is again, `ReNoise`. Use the [Zero Crossing Slicer](https://www.renoise.com/tools/zerocrossings) tool from the sampler context menu, under `Slices`.
